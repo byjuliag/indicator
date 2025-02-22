@@ -10,7 +10,7 @@ let state = {
 
 
 function setup() {
-  createCanvas(800, 500);
+  createCanvas(windowWidth, windowHeight);
   state.choice = new toggleSwitch(490, 60, 'Acids', 'Bases', true, 190, 40)
   setupButtons()
   
